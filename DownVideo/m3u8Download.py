@@ -63,6 +63,7 @@ def getVideo_urllib(url_m3u8, path, videoName):
 
 
 if __name__ == '__main__':
+    #更新
     url_m3u8 = 'https://www.xxx.com/puliting/1553829923506.m3u8'
     path = r'E:\videos'
     videoName = url_m3u8.split('/')[-1]
